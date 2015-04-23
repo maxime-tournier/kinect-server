@@ -41,16 +41,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="TestServer">
-      <HintPath>..\..\TestServer\bin\Debug\TestServer.exe</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Quaternion.cs" />
     <Compile Include="Serialization.cs" />
     <Compile Include="Kinect.cs" />
     <Compile Include="Server.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="KinectServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

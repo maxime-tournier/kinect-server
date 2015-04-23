@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Kinect;
 using System.Web.Script.Serialization;
-using TestServer;
 
 
 namespace Riken

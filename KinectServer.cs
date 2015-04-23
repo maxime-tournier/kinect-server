@@ -10,7 +10,7 @@ using System.Threading;
 namespace Riken
 {
 
-    class Main
+    class KinectServer
     {
         
 
@@ -101,10 +101,7 @@ namespace Riken
             }
         }
 
-        
-
-
-
+       
         static void Main(string[] args)
         {
             // KinectTest(args);
