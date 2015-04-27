@@ -13,7 +13,7 @@ namespace Riken
     class Server
     {
         public string ip = IPAddress.Any.ToString();
-        ushort port = 9000;
+        ushort port = 9001;
 
         TcpListener listener;
 
