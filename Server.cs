@@ -17,6 +17,7 @@ namespace Riken
 
         TcpListener listener;
 
+		// in case you need the public IP address
         static public string IpAddress()
         {
             var entry = System.Net.Dns.GetHostEntry(System.Net.Dns.GetHostName());

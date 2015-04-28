@@ -54,8 +54,8 @@ namespace Riken
 
                 var serializer = new Serializer();
 
+				Console.WriteLine("public ip: {0}", Server.IpAddress());
                 var server = new Server();
-                server.ip = Server.IpAddress();
 
                 int frame = 0;
                 foreach (var client in server.Clients())
